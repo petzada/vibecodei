@@ -23,10 +23,20 @@ export const metadata: Metadata = {
     template: '%s - VIBECODEI',
   },
   description: 'Conteudo curto e direto sobre programacao.',
+  alternates: {
+    canonical: '/',
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   openGraph: {
     title: 'VIBECODEI',
     description: 'Conteudo curto e direto sobre programacao.',
     type: 'website',
+    url: '/',
+    siteName: 'VIBECODEI',
     locale: 'pt_BR',
     images: [
       {
