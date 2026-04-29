@@ -20,14 +20,28 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://vibecodei.com.br'),
   title: {
     default: 'VIBECODEI',
-    template: '%s · VIBECODEI',
+    template: '%s - VIBECODEI',
   },
-  description: 'Conteúdo curto e direto sobre programação.',
+  description: 'Conteudo curto e direto sobre programacao.',
   openGraph: {
     title: 'VIBECODEI',
-    description: 'Conteúdo curto e direto sobre programação.',
+    description: 'Conteudo curto e direto sobre programacao.',
     type: 'website',
     locale: 'pt_BR',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'VIBECODEI',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VIBECODEI',
+    description: 'Conteudo curto e direto sobre programacao.',
+    images: ['/opengraph-image'],
   },
 }
 
