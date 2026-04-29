@@ -2,6 +2,11 @@
   "name": "vibecodei",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.13.0",
+    "npm": ">=10.8.2"
+  },
+  "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
